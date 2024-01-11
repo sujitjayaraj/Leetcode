@@ -10,17 +10,13 @@ class JobScheduling
             jobs[i] = new Job(startTime[i], endTime[i], profit[i]);
         }
         
-        return findMaxProfit(jobs); 
-    }
-    
-    private static int findMaxProfit(Job[] jobs){
         Arrays.sort(jobs);
         
         int[] dp = new int[jobs.length];
         dp[0] = jobs[0].profit;
         
         for(int i=1; i<jobs.length; i++){
-            int profit = jobs[i].profit;
+            int profits = jobs[i].profit;
             int nonOverlap = -1;
             for(int j=i-1; j>=0; j--){
                 if(jobs[j].endTime <= jobs[i].startTime){
@@ -29,9 +25,9 @@ class JobScheduling
                 }
             }
             if(nonOverlap != -1){
-                profit += dp[nonOverlap];
+                profits += dp[nonOverlap];
             }
-            dp[i] = Math.max(profit, dp[i-1]);
+            dp[i] = Math.max(profits, dp[i-1]);
         }
         return dp[jobs.length-1];
     }
