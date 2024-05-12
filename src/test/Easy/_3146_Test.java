@@ -1,5 +1,6 @@
-package main.Easy;
+package test.Easy;
 
+import main.Easy._3146_;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
