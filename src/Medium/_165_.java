@@ -1,4 +1,4 @@
-package main.Medium;
+package Medium;
 
 // Compare Version Numbers
 // https://leetcode.com/problems/compare-version-numbers/

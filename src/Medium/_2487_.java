@@ -1,4 +1,4 @@
-package main.Medium;
+package Medium;
 
 // Remove Nodes From a Linked List
 // https://leetcode.com/problems/remove-nodes-from-linked-list/

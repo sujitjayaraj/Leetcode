@@ -1,4 +1,4 @@
-package main.Medium;
+package Medium;
 
 // Score After Flipping Matrix
 // https://leetcode.com/problems/score-after-flipping-matrix/

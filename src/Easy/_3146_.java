@@ -1,4 +1,4 @@
-package main.Easy;
+package Easy;
 
 // Permutation Difference Between Two Strings
 // https://leetcode.com/problems/permutation-difference-between-two-strings

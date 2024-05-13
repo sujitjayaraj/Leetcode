@@ -1,4 +1,4 @@
-package main.Medium;
+package Medium;
 
 import java.util.List;
 public class _3148_ {

@@ -1,4 +1,4 @@
-package main.Medium;
+package Medium;
 
 import java.util.Comparator;
 import java.util.PriorityQueue;

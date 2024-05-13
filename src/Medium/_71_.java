@@ -1,4 +1,4 @@
-package main.Medium;
+package Medium;
 
 // Simplify Path
 // https://leetcode.com/problems/simplify-path/
