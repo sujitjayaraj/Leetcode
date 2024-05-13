@@ -2,6 +2,7 @@ package main.Easy;
 
 // Reverse Prefix of Word
 // https://leetcode.com/problems/reverse-prefix-of-word
+
 public class _2000_ {
     public String reversePrefix(String word, char ch) {
         int index = word.indexOf(ch);
