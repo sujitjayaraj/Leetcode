@@ -4,7 +4,7 @@ import java.util.List;
 public class _3148_ {
     public int maxScoreSize(List<List<Integer>> grid) {
         int m = grid.size();
-        int n = grid.getFirst().size();
+        int n = grid.get(0).size();
         int[][] dp = new int[m][n];
         dp[m - 1][n - 1] = (int) Math.pow(-10, 5); // Base case since no moves are possible from grid[m-1][n-1]
         int maxDiff = dp[m - 1][n - 1];

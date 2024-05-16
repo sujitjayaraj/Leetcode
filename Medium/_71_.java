@@ -23,7 +23,7 @@ public class _71_ {
         for (String segment : segments) {
             if (segment.equals("..")) {
                 if (!normalizedSegments.isEmpty())
-                    normalizedSegments.removeLast();
+                    normalizedSegments.remove(normalizedSegments.size()-1);
             } else if (!segment.equals("."))
                 normalizedSegments.add(segment);
         }
