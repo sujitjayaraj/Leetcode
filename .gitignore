@@ -34,3 +34,5 @@ bin/
 *.bluej
 
 *.class
+
+docs/
