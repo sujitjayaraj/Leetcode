@@ -1,26 +1,21 @@
 package Medium;
 
-// Double a Number Represented as a Linked List
-// https://leetcode.com/problems/double-a-number-represented-as-a-linked-list/
+import Common.ListNode;
+
+/**
+ * Question 2816
+ * <a href="https://leetcode.com/problems/double-a-number-represented-as-a-linked-list/">Double a Number Represented as a Linked List</a>
+ */
 
 public class _2816_ {
-    public static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode() {
-        }
-
-        ListNode(int val) {
-            this.val = val;
-            this.next = null;
-        }
-
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
-    }
+    
+    /**
+     * Modifies the linked list by doubling the non-negative integer
+     * represented by this linked list.
+     * 
+     * @param head Head {@link ListNode} of the linked list.
+     * @return Head {@link ListNode} of the modified linked list.
+     */
     public ListNode doubleIt(ListNode head) {
         ListNode left, curr = head;
         int res = 0;

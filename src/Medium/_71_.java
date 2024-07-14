@@ -1,11 +1,21 @@
 package Medium;
 
-// Simplify Path
-// https://leetcode.com/problems/simplify-path/
-
 import java.util.ArrayList;
 
+/**
+ * Question 71
+ * <a href="https://leetcode.com/problems/simplify-path/">Simplify Path</a>
+ */
+
 public class _71_ {
+    
+    /**
+     * Transforms an absolute path for a Unix file system into a simplified
+     * canonical path.
+     * 
+     * @param path String representing an absolute path for a Unix file system.
+     * @return String representing a simplified canonical path. 
+     */
     public String simplifyPath(String path) {
         path = path.replaceAll("/+", "/");
         if (path.equals("/"))

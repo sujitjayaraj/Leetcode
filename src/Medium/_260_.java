@@ -1,9 +1,19 @@
 package Medium;
 
-// Single Number III
-// https://leetcode.com/problems/single-number-iii/description/
+/**
+ * Question 260
+ * <a href="https://leetcode.com/problems/single-number-iii/description/">Single Number III</a>
+ */
 
-class _260_ {
+public class _260_ {
+    
+    /**
+     * Finds the two elements that appear only once in the given array.
+     * 
+     * @param nums Array in which exactly two elements appear only once and
+     * all the other elements appear exactly twice.
+     * @return Array containing the two elements.
+     */
     public int[] singleNumber(int[] nums) {
         int xor = 0, diff;
         int[] result = new int[2];

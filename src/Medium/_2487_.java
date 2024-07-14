@@ -1,16 +1,19 @@
 package Medium;
 
-// Remove Nodes From a Linked List
-// https://leetcode.com/problems/remove-nodes-from-linked-list/
+import Common.ListNode;
+/**
+ * Question 2487
+ * <a href="https://leetcode.com/problems/remove-nodes-from-linked-list/">Remove Nodes From a Linked List</a>
+ */
 
 public class _2487_ {
-    public static class ListNode {
-        int val;
-        ListNode next;
-        ListNode() {}
-        ListNode(int val) { this.val = val; }
-        ListNode(int val, ListNode next) { this.val = val; this.next = next; }
-    }
+    
+    /**
+     * Removes every node which has a node with a greater value anywhere to the right side of it.
+     * 
+     * @param head Head {@link ListNode} of the linked list.
+     * @return Head {@link ListNode} of the modified linked list.
+     */
     public ListNode removeNodes(ListNode head) {
         head = reverseLinkedList(head);
         ListNode curr = head, next = null;
