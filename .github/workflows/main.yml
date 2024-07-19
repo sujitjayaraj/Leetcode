@@ -21,7 +21,7 @@ jobs:
 
     - name: Generate Javadocs
       run:
-        ./javadoc -d docs src/Hard/*.java src/Medium/*.java src/Easy/*.java src/Common/*.java
+        javadoc -d docs src/Hard/*.java src/Medium/*.java src/Easy/*.java src/Common/*.java
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-github-pages@v3.1.12
