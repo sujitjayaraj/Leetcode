@@ -1,0 +1,30 @@
+name: Generate and deploy Javadocs
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  builds:
+    runs-on: ubuntu-latest
+      
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@4.1.7
+
+    - name: Setup Java JDK
+      uses: actions/setup-java@v4.2.1
+      with:
+        java-version: 21
+
+    - name: Generate Javadocs
+      run:
+        ./javadoc -d docs src/Hard/*.java src/Medium/*.java src/Easy/*.java src/Common/*.java
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-github-pages@v3.1.12
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_branch: gh-pages
+        publish_dir: ./docs
