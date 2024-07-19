@@ -17,6 +17,7 @@ jobs:
       uses: actions/setup-java@v4.2.1
       with:
         java-version: 21
+        distribution: oracle
 
     - name: Generate Javadocs
       run:
