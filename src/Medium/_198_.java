@@ -1,9 +1,15 @@
 package Medium;
 
-// House Robber
-// https://leetcode.com/problems/house-robber/
-
+/**
+ * <a href="https://leetcode.com/problems/house-robber/">House Robber</a>
+ */
 public class _198_ {
+    /**
+     * Calculates the maximum amount of money you can rob in a single night without alerting the police.
+     * 
+     * @param nums Integer array representing the amount of money in each house.
+     * @return Maximum amount of money you can rob in a single night without alerting the police.
+     */
     public int rob(int[] nums) {
         int[] dp = new int[nums.length+2];
 

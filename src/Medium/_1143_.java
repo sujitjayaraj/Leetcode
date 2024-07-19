@@ -1,14 +1,20 @@
 package Medium;
 
-// Longest Common Subsequence
-// https://leetcode.com/problems/longest-common-subsequence/
-
 import java.util.Arrays;
 
+/**
+ * <a href="https://leetcode.com/problems/longest-common-subsequence/">Longest Common Subsequence</a>
+ */
 public class _1143_ {
     int[][] dp;
     char[] str1, str2;
-
+    
+    /**
+     * Calculates the length of the longest common subsequence between two given {@link String}.
+     * 
+     * @param text1 {@link String} first text input.
+     * @param text2 {@link String} second text input.
+     */
     public int longestCommonSubsequence(String text1, String text2) {
         str1 = text1.toCharArray();
         str2 = text2.toCharArray();

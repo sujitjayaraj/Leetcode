@@ -1,7 +1,16 @@
 package Easy;
 
-class _3110_
+/**
+ * <a href="https://leetcode.com/problems/score-of-a-string/">Score of a String</a>
+ */
+public class _3110_
 {
+    /**
+     * Calculates the absolute difference in ASCII values between the adjacent characters of a {@link String}.
+     * 
+     * @param s An input {@link String}.
+     * @return Score of the input {@link String}.
+     */
     public int scoreOfString(String s) {
         int sum = 0;
 

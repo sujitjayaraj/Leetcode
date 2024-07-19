@@ -1,7 +1,9 @@
 package Easy;
 
-// Permutation Difference Between Two Strings
-// https://leetcode.com/problems/permutation-difference-between-two-strings
+/**
+ * <a href="https://leetcode.com/problems/permutation-difference-between-two-strings/">
+ * Permutation Difference Between Two Strings</a>
+ */
 public class _3146_ {
     public int findPermutationDifference(String s, String t){
         int diff = 0;

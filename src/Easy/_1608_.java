@@ -1,9 +1,10 @@
 package Easy;
 
-// Special Array With X Elements Greater Than or Equal X
-// https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/
-
-class _1608_
+/**
+ * <a href="https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/">
+ * Special Array With X Elements Greater Than or Equal X</a>
+ */
+public class _1608_
 {
     public int specialArray(int[] nums) {
         int left = 0, right = nums.length;

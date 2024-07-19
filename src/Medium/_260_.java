@@ -1,12 +1,9 @@
 package Medium;
 
 /**
- * Question 260
  * <a href="https://leetcode.com/problems/single-number-iii/description/">Single Number III</a>
  */
-
 public class _260_ {
-    
     /**
      * Finds the two elements that appear only once in the given array.
      * 

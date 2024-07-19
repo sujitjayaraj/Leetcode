@@ -1,9 +1,10 @@
 package Easy;
 
-// Find the Number of Good Pairs I
-// https://leetcode.com/problems/find-the-number-of-good-pairs-i/description/
-
-class _3162_
+/**
+ * <a href="https://leetcode.com/problems/find-the-number-of-good-pairs-i/description/">
+ * Find the Number of Good Pairs I</a>
+ */
+public class _3162_
 {
     public int numberOfPairs(int[] nums1, int[] nums2, int k) {
         int count = 0;
