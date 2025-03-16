@@ -3,12 +3,9 @@ package Medium;
 import java.util.ArrayDeque;
 
 /**
- * Question 1190
  * <a href="https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/">Reverse Substrings Between Each Pair of Parantheses</a> 
  */
-
 public class _1190_ {
-    
     /**
      * Reverses the substring between each pair of matching parentheses starting
      * from the innermost one.

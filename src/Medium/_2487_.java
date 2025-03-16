@@ -1,13 +1,12 @@
 package Medium;
 
 import Common.ListNode;
+
 /**
  * Question 2487
  * <a href="https://leetcode.com/problems/remove-nodes-from-linked-list/">Remove Nodes From a Linked List</a>
  */
-
 public class _2487_ {
-    
     /**
      * Removes every node which has a node with a greater value anywhere to the right side of it.
      * 

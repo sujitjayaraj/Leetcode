@@ -6,9 +6,7 @@ import java.util.ArrayList;
  * Question 71
  * <a href="https://leetcode.com/problems/simplify-path/">Simplify Path</a>
  */
-
 public class _71_ {
-    
     /**
      * Transforms an absolute path for a Unix file system into a simplified
      * canonical path.
